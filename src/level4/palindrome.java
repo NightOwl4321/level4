@@ -29,7 +29,6 @@ public class palindrome {
 		for (int i = 0; i < line.length() / 2; i++) {
 			String start = line.substring(i, i+1);
 			if (start.equalsIgnoreCase(line.substring(line.length()-i))) {
-				
 				System.out.println("ture");
 				matches++;
 			}
