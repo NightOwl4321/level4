@@ -22,23 +22,23 @@ public void testSortAnArray() throws Exception {
 	assertEquals("snoopy", testArray[testArray.length - 1]);
 	}
 
-	public void testInsertIntoArray() {
-    	int[] testArray = { 3, 6, 8, 3, 3, 2, 98 };
-    	testArray = Inserting.insertAt(testArray, 5, 3);
-    	assertEquals(3, testArray[0]);
-    	assertEquals(3, testArray[4]);
-    	assertEquals(3, testArray[5]);
-	}
-
-	public void testInsertInOrder() throws Exception {
-    	String[] orderedArray = { "concerned", "affected", "fascinated",
-            	"intrigued", "absorbed", "inquisitive", "nosy", "snoopy",
-            	"engrossed", "curious" };
-    	Sorting.sort(orderedArray);
-
-    	Inserting.insertAlphabetically(orderedArray, "groovy");
-    	assertEquals("absorbed", orderedArray[0]);
-    	assertEquals("groovy", orderedArray[6]);
-    	assertEquals("snoopy", orderedArray[8]);
-	} 
+//	public void testInsertIntoArray() {
+//    	int[] testArray = { 3, 6, 8, 3, 3, 2, 98 };
+//    	testArray = Inserting.insertAt(testArray, 5, 3);
+//    	assertEquals(3, testArray[0]);
+//    	assertEquals(3, testArray[4]);
+//    	assertEquals(3, testArray[5]);
+//	}
+//
+//	public void testInsertInOrder() throws Exception {
+//    	String[] orderedArray = { "concerned", "affected", "fascinated",
+//            	"intrigued", "absorbed", "inquisitive", "nosy", "snoopy",
+//            	"engrossed", "curious" };
+//    	Sorting.sort(orderedArray);
+//
+//    	Inserting.insertAlphabetically(orderedArray, "groovy");
+//    	assertEquals("absorbed", orderedArray[0]);
+//    	assertEquals("groovy", orderedArray[6]);
+//    	assertEquals("snoopy", orderedArray[8]);
+//	} 
 }
